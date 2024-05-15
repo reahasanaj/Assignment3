@@ -1,7 +1,7 @@
-function Comment(){
+function Comment(props){
     return (
         <div>
-            <p>Test Comment</p>
+            <p>{props.content}</p>
         </div>
     )
 }
